@@ -1,0 +1,400 @@
+/* Parámetros globales de Maquetación y Estilo */
+* {
+    box-sizing: border-box;
+  }
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4, h5, h6, p, a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+figure{
+    margin: 0;
+}
+
+
+
+/* Estilo propio del sitio web */
+aside#menu-cortina {
+    width: 100%;                /* 100% / <= 300px */
+    height: 100%;
+    display: block;
+    margin: 0;
+    float: none;
+    position: fixed;
+    
+    top: 0;
+    right: -100%;                    /* left / right */
+    z-index: 99991;
+    
+    background: rgba(65, 9, 9, 0.79);
+}
+
+aside#menu-cortina a#abrir { }
+aside#menu-cortina a#abrir i { }
+aside#menu-cortina a#abrir:hover { }
+aside#menu-cortina a#abrir:hover i { }
+
+aside#menu-cortina a#cerrar { }
+aside#menu-cortina a#cerrar i { }
+aside#menu-cortina a#cerrar:hover { }
+aside#menu-cortina a#cerrar:hover i { }
+
+aside#menu-cortina nav#menu-idioma-movil { }
+aside#menu-cortina nav#menu-idioma-movil a { }
+aside#menu-cortina nav#menu-idioma-movil a:hover { }
+aside#menu-cortina nav#menu-idioma-movil span { }
+
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+header a {
+    color: white;
+}
+
+header article#header {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+header article#header a#logo { 
+    float: left;
+    width: 10%;
+}
+header article#header a#logo img { 
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+header article#header a#logo:hover img {}
+
+header article#header nav#menu-principal {
+    float: left;
+    width: 60%;
+    padding: 28px 0;
+}
+header article#header nav#menu-principal a {
+    margin-right: 25px;
+}
+header article#header nav#menu-principal a:hover {}
+
+header article#header nav#menu-idioma {
+    float: left;
+    width: 10%;
+    padding: 28px 0;
+}
+header article#header nav#menu-idioma a {}
+header article#header nav#menu-idioma a:hover {}
+header article#header nav#menu-idioma span {}
+
+header article#header nav#menu-redes {
+    float: left;
+    width: 20%;
+    padding: 28px 0;
+    text-align: right;
+}
+header article#header nav#menu-redes a {
+    margin-right: 20px;
+}
+header article#header nav#menu-redes a i {
+    font-size: 22px;
+}
+header article#header nav#menu-redes a:hover {}
+
+
+
+main section#slide {
+    
+}
+main section#slide article {
+    height: 100vh;
+    background-color: #AD97FF;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+main section#slide article figure {}
+main section#slide article figure .caja-slide {
+    position: absolute;
+    left: 240px;
+    bottom: 190px;
+}
+main section#slide article figure div h3 {
+    margin: 0;
+    font-size: 80px;
+    font-weight: 800;
+    color: white;
+    line-height: 80px;
+}
+main section#slide article figure div h3 img {}
+main section#slide article figure div p {
+    color: white;
+    font-size: 21px;
+    margin-bottom: 40px;
+}
+main section#slide article figure div a {
+    background-color: midnightblue;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 20px;
+}
+main section#slide article figure div a:hover {}
+
+
+
+main section#Ez_way {
+    margin-top: 50px;
+}
+main section#Ez_way article {
+    max-width: 1440px;
+    margin: auto;
+}
+main section#Ez_way article h3 {
+    color: midnightblue;
+    font-size: 30px;
+    margin: 0;
+}
+main section#Ez_way article p {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+main section#Ez_way article nav {}
+main section#Ez_way article nav a {
+    float: left;
+    height: 400px;
+    color: white;
+    width: 20%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 25px;
+}
+main section#Ez_way article nav a:hover {}
+main section#Ez_way article nav a span {
+    font-size: 27px;
+}
+
+
+main section#Ez_way article nav a#color1{
+    background-color: #1B103B;
+}
+
+main section#Ez_way article nav a#color2{
+    background-color: #7E5DF4;
+}
+
+main section#Ez_way article nav a#color3{
+    background-color: #4422BF;
+}
+
+main section#Ez_way article nav a#color4{
+    background-color: #322074;
+}
+
+main section#Who_am_I {
+    clear: both;
+}
+main section#Who_am_I article#Imagen {}
+main section#Who_am_I article#Imagen img {}
+
+
+main section#Who_am_I {}
+main section#Who_am_I article#Imagen {}
+main section#Who_am_I article#Imagen img {}
+
+main section#Who_am_I {}
+main section#Who_am_I article#Texto {}
+main section#Who_am_I article#Texto h2 {}
+main section#Who_am_I article#Texto p {}
+main section#Who_am_I article#Texto a {}
+main section#Who_am_I article#Texto a:hover {}
+main section#Who_am_I article#Texto a:hover span {}
+
+
+
+main section#What_is_Illustration {}
+main section#What_is_Illustration article#Imagen2 {}
+main section#What_is_Illustration article#Imagen2 img {}
+
+main section#What_is_Illustration {}
+main section#What_is_Illustration article#Texto2 {}
+main section#What_is_Illustration article#Texto2 h2 {}
+main section#What_is_Illustration article#Texto2 p {}
+main section#What_is_Illustration article#Texto2 a {}
+main section#What_is_Illustration article#Texto2 a:hover {}
+main section#What_is_Illustration article#Texto2 a:hover span {}
+
+
+
+main section#What_is_Character_Design {}
+main section#What_is_Character_Design article#Imagen3 {}
+main section#What_is_Character_Design article#Imagen3 img {}
+
+main section#What_is_Character_Design {}
+main section#What_is_Character_Design article#Texto3 {}
+main section#What_is_Character_Design article#Texto3 h2 {}
+main section#What_is_Character_Design article#Texto3 p {}
+main section#What_is_Character_Design article#Texto3 a {}
+main section#What_is_Character_Design article#Texto3 a:hover {}
+main section#What_is_Character_Design article#Texto3 a:hover span {}
+
+
+
+main section#What_is_the_background {}
+main section#What_is_the_background article#Imagen4 {}
+main section#What_is_the_background article#Imagen4 img {}
+
+main section#What_is_the_background {}
+main section#What_is_the_background article#Texto4 {}
+main section#What_is_the_background article#Texto4 h2 {}
+main section#What_is_the_background article#Texto4 p {}
+main section#What_is_the_background article#Texto4 a {}
+main section#What_is_the_background article#Texto4 a:hover {}
+main section#What_is_the_background article#Texto4 a:hover span {}
+
+
+
+footer 
+
+footer nav#menu-redes2 {}
+footer nav#menu-redes2 a {}
+footer nav#menu-redes2 a:hover {}
+footer nav#menu-redes2 a:hover i {}
+
+
+/*---Who Am I---*/
+
+main
+
+main section#Superior {}
+main section#Superior article#Text_Who_am_I{}
+main section#Superior article#Text_Who_am_I h2{}
+main section#Superior article#Text_Who_am_I p{}
+
+main section#Text_Introduction {}
+main section#Text_Introduction article#Text {}
+main section#Text_Introduction article#Text h2 {}
+main section#Text_Introduction article#Text p {}
+main section#Text_Introduction article#Text li {}
+
+main section#Text_Introduction {}
+main section#Text_Introduction article#Img_Who{}
+main section#Text_Introduction article#Img_Who img{}
+
+
+/*---Illustration---*/
+
+main section#Section_illustration {}
+main section#Section_illustration article#Text_Illustration {}
+main section#Section_illustration article#Text_Illustration h2 {}
+main section#Section_illustration article#Text_Illustration p {}
+
+main section#Section_illustration {}
+main section#Section_illustration article#Img_Illustration {}
+main section#Section_illustration article#Img_Illustration nav {}
+main section#Section_illustration article#Img_Illustration nav a {}
+main section#Section_illustration article#Img_Illustration nav a:hover {}
+
+
+
+main section#Section_character {}
+main section#Section_character article#Text_Character_Design {}
+main section#Section_character article#Text_Character_Design h2 {}
+main section#Section_character article#Text_Character_Design p {}
+
+main section#Section_character {}
+main section#Section_character article#Img_Character_Design {}
+main section#Section_character article#Img_Character_Design nav {}
+main section#Section_character article#Img_Character_Design nav a {}
+main section#Section_character article#Img_Character_Design nav a:hover {}
+
+
+
+main section#Section_Background {}
+main section#Section_Background article#Text_Background {}
+main section#Section_Background article#Text_Background h2 {}
+main section#Section_Background article#Text_Background p {}
+
+main section#Section_Background {}
+main section#Section_Background article#Img_Background {}
+main section#Section_Background article#Img_Background nav {}
+main section#Section_Background article#Img_Background nav a {}
+main section#Section_Background article#Img_Background nav a:hover {}
+
+
+
+/* Zona Responsive */
+
+/*
+Escritorio y TV         >= 1200px
+Tablets                 <= 1199px --- >= 500px
+Móviles                 <= 499px --- >= 340px
+*/
+
+@media only screen and (max-width: 1199px){    /*Tablets*/
+    aside#menu-cortina {
+        right: 0;
+    }
+}
+
+@media only screen and (max-width: 1099px){
+    
+}
+
+@media only screen and (max-width: 999px){
+    
+}
+
+@media only screen and (max-width: 899px){
+    
+}
+
+@media only screen and (max-width: 799px){
+    
+}
+
+@media only screen and (max-width: 699px){
+    
+}
+
+@media only screen and (max-width: 599px){
+    
+}
+
+@media only screen and (max-width: 499px){     /*Móviles*/
+    
+}
+
+@media only screen and (max-width: 449px){
+    
+}
+
+@media only screen and (max-width: 399px){
+    
+}
+
+@media only screen and (max-width: 349px){
+    
+}
+
+
+
+
+
+
